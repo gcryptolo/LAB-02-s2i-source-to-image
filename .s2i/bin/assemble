@@ -3,7 +3,7 @@ set -e
 
 cd /tmp/src
 
-pwd 
+pwd
 
 ls -la
 
@@ -11,6 +11,6 @@ echo "Maven custom build"
 mvn clean package -DskipTests
 
 echo "Copying jar file to /opt/app-root/src"
-cp target/lab02-sample-hello-work-1.0.0.jar /opt/app-root/src/app.jar
+cp target/lab02-sample-hello-work-1.0.0.jar /deployments/app.jar
 
 echo "Maven custom build Success"

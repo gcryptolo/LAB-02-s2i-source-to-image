@@ -2,4 +2,4 @@
 set -e
 
 echo "Avvio dell'applicazione Spring Boot..."
-exec java -jar /opt/app-root/src/app.jar
+exec java -jar /deployments/app.jar
