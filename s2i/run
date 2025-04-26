@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+echo "Avvio dell'applicazione Spring Boot..."
+exec java -jar /opt/app-root/src/app.jar

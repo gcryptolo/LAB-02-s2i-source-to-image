@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+echo "Maven custom build"
+mvn clean package -DskipTests
+
+echo "Copying jar file to /opt/app-root/src"
+cp target/lab02-sample-hello-work-1.0.0.jar /opt/app-root/src/app.jar
+
+echo "Maven custom build Success"
