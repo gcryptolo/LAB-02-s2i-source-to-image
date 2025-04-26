@@ -3,6 +3,10 @@ set -e
 
 cd /tmp/src
 
+pwd 
+
+ls -la
+
 echo "Maven custom build"
 mvn clean package -DskipTests
 
